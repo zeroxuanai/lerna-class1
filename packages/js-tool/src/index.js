@@ -1,9 +1,6 @@
-import hPrint from "./tool";
+import {hPrint} from "./tool"
+const name="hello world";
 
-
-const name="hello world!!"
-
-// hPrint(hPrint)
-export {hPrint,name}
-
-export default hPrint;
+export {
+  name,hPrint
+}
