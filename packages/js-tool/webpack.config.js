@@ -11,8 +11,7 @@ module.exports = {
     path: getPath("dist"),
     filename: "index.js",
     library: {
-     
-      type: 'module',
+      type: 'commonjs',
     },
   },
   resolve: {
