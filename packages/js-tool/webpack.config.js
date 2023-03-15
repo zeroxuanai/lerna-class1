@@ -9,11 +9,8 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: getPath("dist"),
-    filename: "[name].bundle.js",
-    //   library:{
-    //       name:["hah","[hah]"],
-    //       type: 'module',
-    //   }
+    filename: "index.js",
+
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.

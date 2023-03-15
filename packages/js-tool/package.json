@@ -5,8 +5,7 @@
   "author": "yangjian <1552457395@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "dist/main.bundle.js",
-  "module": "dist/main.bundle.js",
+  "main": "dist/index.js",
   "sideEffects": true,
   "directories": {
     "lib": "dist",
