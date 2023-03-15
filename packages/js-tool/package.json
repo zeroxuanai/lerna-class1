@@ -1,0 +1,26 @@
+{
+  "name": "js-tool",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "yangjian <1552457395@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/main.bundle.js",
+  "module": "dist/main.bundle.js",
+  "sideEffects": true,
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
