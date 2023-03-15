@@ -6,6 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "sideEffects": true,
   "directories": {
     "lib": "dist",

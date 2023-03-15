@@ -10,7 +10,10 @@ module.exports = {
   output: {
     path: getPath("dist"),
     filename: "index.js",
-
+    library: {
+     
+      type: 'module',
+    },
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
@@ -22,5 +25,8 @@ module.exports = {
       ".cjs": [".cjs", ".cts"],
       ".mjs": [".mjs", ".mts"],
     },
+  },
+  experiments: {
+    outputModule: true,
   },
 };
