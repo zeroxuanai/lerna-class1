@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import hPrint from "js-tool";
+import {hPrint,name} from "js-tool";
 
 function App() {
-  console.log("hPrint", hPrint);
+  hPrint(name);
   return (
     <div className="App">
       <header className="App-header">
